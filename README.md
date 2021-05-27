@@ -6,7 +6,7 @@ A rather simple (if not contrived) GraphQL API for creating and listing toys
 
 ### Dependencies
 
-* A [Deno](https://deno.land/) version > 1.8
+* A [Deno](https://deno.land/) version > 1.10
 
 ### Executing program
 
