@@ -1,0 +1,25 @@
+enum ColorsList {
+  GREEN
+  BLUE
+  BROWN
+  RED
+  ORANGE
+}
+
+enum ToyType {
+  STUFFED
+  PLASTIC
+  WOODEN
+}
+
+type Toy {
+  name: String
+  description: String
+  manufacterer: String
+  type: ToyType
+  mainColor: ColorsList
+}
+
+type Query {
+  listToys: [Toy!] @index(name: "all_toys")
+}
